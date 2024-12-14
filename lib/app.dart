@@ -21,7 +21,7 @@ class App extends StatelessWidget {
       ),
       navigatorKey: Navigation.navigatorKey,
       initialRoute: Routes.onboarding.path,
-      onGenerateRoute: generateRoute, // Custom route generator
+      onGenerateRoute: generateRoute,
     );
   }
 }
